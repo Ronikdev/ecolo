@@ -1,0 +1,2 @@
+# ecolo
+static website
