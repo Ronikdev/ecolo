@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ECOLO AFRICA TOGO - SARL spécialisée dans l'assainissement urbain, l'énergie verte, l'agriculture bio, la protection de l'environnement et l'éco-tourisme à Lomé, Togo." />
+  <title>ECOLO AFRICA TOGO — Pour un avenir vert et durable</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <!-- Brand -->
+      <a href="#home" class="nav-brand">
+        <div class="brand-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15" stroke="#2d7a3a" stroke-width="2" fill="none"/>
+            <path d="M16 6 C10 6, 6 10, 6 16 C6 20, 8 23, 12 25 C12 21, 14 18, 16 16 C18 18, 20 21, 20 25 C24 23, 26 20, 26 16 C26 10, 22 6, 16 6Z" fill="#2d7a3a"/>
+            <path d="M16 16 L16 28" stroke="#2d7a3a" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">ECOLO AFRICA</span>
+          <span class="brand-sub">TOGO</span>
+        </div>
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Accueil</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#values" class="nav-link">Vision</a></li>
+        <li><a href="#gallery" class="nav-link">Galerie</a></li>
+        <li><a href="#stats" class="nav-link">Impact</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- CTA -->
+      <a href="#contact" class="nav-cta">Nous contacter</a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-links">
+        <li><a href="#home" class="mobile-link">Accueil</a></li>
+        <li><a href="#about" class="mobile-link">À propos</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#values" class="mobile-link">Vision</a></li>
+        <li><a href="#gallery" class="mobile-link">Galerie</a></li>
+        <li><a href="#stats" class="mobile-link">Impact</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li><a href="#terms" class="mobile-link">Termes</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1800&q=85&fit=crop"
+        alt="Nature verte Afrique"
+        class="hero-img"
+        loading="eager"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Lomé, Togo — SARL Enregistrée
+      </div>
+      <h1 class="hero-title reveal">
+        Bâtir un <span class="text-green">avenir vert</span><br/>
+        pour l'Afrique de demain
+      </h1>
+      <p class="hero-desc reveal">
+        ECOLO AFRICA TOGO s'engage pour un environnement sain, une énergie propre
+        et un développement durable au cœur du Togo et de l'Afrique.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#services" class="btn-primary">
+          <i data-lucide="layers" class="btn-icon"></i>
+          Nos services
+        </a>
+        <a href="#contact" class="btn-outline">
+          <i data-lucide="mail" class="btn-icon"></i>
+          Nous contacter
+        </a>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator reveal">
+        <div class="scroll-line"></div>
+        <span>Découvrir</span>
+      </div>
+    </div>
+
+    <!-- Hero Stats Strip -->
+    <div class="hero-strip">
+      <div class="strip-item">
+        <strong>7+</strong>
+        <span>Domaines d'activité</span>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item">
+        <strong>100%</strong>
+        <span>Engagement vert</span>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item">
+        <strong>Togo</strong>
+        <span>Basé à Lomé</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       À PROPOS
+  ============================================================ -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image Side -->
+        <div class="about-image-col reveal-left">
+          <div class="about-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80&fit=crop"
+              alt="Environnement naturel Afrique"
+              class="about-img"
+              loading="lazy"
+            />
+            <div class="about-img-card">
+              <div class="img-card-icon">
+                <i data-lucide="leaf" style="width:22px;height:22px;color:#2d7a3a;"></i>
+              </div>
+              <div>
+                <strong>Fondée avec vision</strong>
+                <span>Pour un Togo vert</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-img-secondary">
+            <img
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&q=80&fit=crop"
+              alt="Forêt verte"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <!-- Text Side -->
+        <div class="about-text-col reveal-right">
+          <div class="section-tag">À propos de nous</div>
+          <h2 class="section-title">Une entreprise née de la conviction que l'Afrique mérite mieux</h2>
+          <p class="about-desc">
+            <strong>ECOLO AFRICA TOGO SARL</strong> est une société togolaise dédiée à la promotion
+            d'un développement respectueux de l'environnement. Créée et dirigée par
+            <strong>Aboubakar Abdel Rachid</strong>, elle incarne la vision d'une Afrique moderne,
+            propre et durable.
+          </p>
+          <p class="about-desc">
+            Basée à Hedzranawoe, Lomé, notre entreprise intervient dans des secteurs stratégiques :
+            assainissement urbain, énergie verte, agriculture biologique, traitement des déchets,
+            et bien plus encore. Chaque projet que nous réalisons s'inscrit dans une démarche
+            globale de préservation de l'environnement et d'amélioration des conditions de vie
+            des communautés togolaises.
+          </p>
+          <p class="about-desc">
+            Nous croyons fermement que la croissance économique et la protection de l'environnement
+            ne sont pas opposées — elles sont complémentaires. C'est cette philosophie qui guide
+            chacune de nos actions.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i data-lucide="check-circle" style="width:18px;height:18px;color:#2d7a3a;"></i></div>
+              <span>SARL enregistrée au Togo</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i data-lucide="check-circle" style="width:18px;height:18px;color:#2d7a3a;"></i></div>
+              <span>Équipe pluridisciplinaire engagée</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i data-lucide="check-circle" style="width:18px;height:18px;color:#2d7a3a;"></i></div>
+              <span>Approche innovante et locale</span>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i data-lucide="check-circle" style="width:18px;height:18px;color:#2d7a3a;"></i></div>
+              <span>Impact mesurable sur les communautés</span>
+            </div>
+          </div>
+
+          <div class="about-manager">
+            <div class="manager-avatar">AR</div>
+            <div>
+              <strong>Aboubakar Abdel Rachid</strong>
+              <span>Directeur Général — ECOLO AFRICA TOGO SARL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Ce que nous faisons</div>
+        <h2 class="section-title">Nos domaines d'expertise</h2>
+        <p class="section-sub">
+          Des solutions vertes et innovantes au service du développement durable togolais.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9)">
+            <i data-lucide="droplets" class="service-icon" style="color:#2d7a3a;"></i>
+          </div>
+          <h3>Assainissement Urbain</h3>
+          <p>Gestion efficace des eaux usées et des systèmes sanitaires dans les zones urbaines et semi-urbaines de Lomé et du Togo.</p>
+          <div class="service-tag">Urbain & Semi-urbain</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#fff8e1,#ffecb3)">
+            <i data-lucide="sun" class="service-icon" style="color:#f59e0b;"></i>
+          </div>
+          <h3>Énergie Verte</h3>
+          <p>Promotion et déploiement de solutions énergétiques propres et renouvelables : solaire, éolien et bioénergie pour un Togo autonome.</p>
+          <div class="service-tag">Renouvelable</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#e8f5e9,#a5d6a7)">
+            <i data-lucide="sprout" class="service-icon" style="color:#388e3c;"></i>
+          </div>
+          <h3>Agriculture Biologique</h3>
+          <p>Accompagnement des agriculteurs togolais vers des pratiques agricoles biologiques, respectueuses des sols et des écosystèmes.</p>
+          <div class="service-tag">Agro-écologie</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#e0f2f1,#b2dfdb)">
+            <i data-lucide="trees" class="service-icon" style="color:#00796b;"></i>
+          </div>
+          <h3>Agro-foresterie</h3>
+          <p>Intégration intelligente des arbres dans les systèmes agricoles pour restaurer la biodiversité et améliorer les rendements durables.</p>
+          <div class="service-tag">Biodiversité</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#fce4ec,#f8bbd0)">
+            <i data-lucide="recycle" class="service-icon" style="color:#c2185b;"></i>
+          </div>
+          <h3>Traitement des Déchets</h3>
+          <p>Collecte, tri, valorisation et recyclage des déchets solides pour assainir nos villes et créer de la valeur à partir des résidus.</p>
+          <div class="service-tag">Économie circulaire</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#e3f2fd,#bbdefb)">
+            <i data-lucide="map-pin" class="service-icon" style="color:#1976d2;"></i>
+          </div>
+          <h3>Éco-tourisme</h3>
+          <p>Développement d'offres touristiques durables valorisant les richesses naturelles et culturelles du Togo dans le respect de l'environnement.</p>
+          <div class="service-tag">Tourisme durable</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#f3e5f5,#e1bee7)">
+            <i data-lucide="home" class="service-icon" style="color:#7b1fa2;"></i>
+          </div>
+          <h3>Habitat Écologique</h3>
+          <p>Conception et promotion de logements écologiques utilisant des matériaux locaux et durables, adaptés au climat et aux besoins africains.</p>
+          <div class="service-tag">Construction verte</div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap" style="background:linear-gradient(135deg,#e8eaf6,#c5cae9)">
+            <i data-lucide="shield-check" class="service-icon" style="color:#303f9f;"></i>
+          </div>
+          <h3>Protection Environnementale</h3>
+          <p>Sensibilisation, plaidoyer et actions concrètes pour la protection et la restauration des écosystèmes naturels togolais.</p>
+          <div class="service-tag">Conservation</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VALEURS / VISION
+  ============================================================ -->
+  <section id="values" class="section values">
+    <div class="values-bg-art"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag light">Notre vision</div>
+        <h2 class="section-title light">Les piliers de notre engagement</h2>
+        <p class="section-sub light">
+          Chaque action d'ECOLO AFRICA TOGO est guidée par des valeurs profondes et une vision claire pour l'avenir.
+        </p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <div class="value-number">01</div>
+          <div class="value-icon"><i data-lucide="infinity" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Durabilité</h3>
+          <p>Chaque solution que nous proposons est pensée pour durer. Nous refusons le jetable et privilégions les systèmes pérennes qui protègent les générations futures.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-number">02</div>
+          <div class="value-icon"><i data-lucide="lightbulb" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Innovation</h3>
+          <p>Nous combinons technologies modernes et savoirs locaux pour créer des solutions adaptées au contexte africain, efficaces et reproductibles.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-number">03</div>
+          <div class="value-icon"><i data-lucide="heart" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Respect de l'environnement</h3>
+          <p>La nature n'est pas une ressource à exploiter mais un patrimoine à préserver. Nous plaçons l'écologie au cœur de toutes nos décisions.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-number">04</div>
+          <div class="value-icon"><i data-lucide="globe" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Développement Africain</h3>
+          <p>Nous croyons en la capacité de l'Afrique à bâtir son propre modèle de développement durable, ancré dans sa culture et ses ressources naturelles.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-number">05</div>
+          <div class="value-icon"><i data-lucide="zap" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Écologie Moderne</h3>
+          <p>L'écologie du 21ème siècle n'est pas synonyme de sacrifice. Nous prouvons qu'elle rime avec confort, croissance économique et qualité de vie.</p>
+        </div>
+
+        <div class="value-card reveal">
+          <div class="value-number">06</div>
+          <div class="value-icon"><i data-lucide="users" style="width:36px;height:36px;color:#4ade80;"></i></div>
+          <h3>Communauté & Inclusion</h3>
+          <p>Aucune transition verte n'est possible sans les communautés. Nous travaillons avec et pour les populations locales, jamais sans elles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALERIE
+  ============================================================ -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Inspiration visuelle</div>
+        <h2 class="section-title">Notre univers écologique</h2>
+        <p class="section-sub">Des paysages, des projets et des visions qui incarnent notre mission au quotidien.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large reveal">
+          <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=900&q=80&fit=crop" alt="Forêt tropicale luxuriante" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Reforestation & Biodiversité</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&q=80&fit=crop" alt="Énergie solaire" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Énergie Solaire</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80&fit=crop" alt="Agriculture biologique" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Agriculture Bio</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&q=80&fit=crop" alt="Recyclage" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Recyclage & Déchets</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&q=80&fit=crop" alt="Écologie nature" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Protection de la Nature</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-large reveal">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=900&q=80&fit=crop" alt="Eau propre nature" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Eau Propre & Assainissement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STATISTIQUES
+  ============================================================ -->
+  <section id="stats" class="section stats">
+    <div class="stats-bg">
+      <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&q=60&fit=crop" alt="Nature" loading="lazy" />
+      <div class="stats-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag light">Notre impact</div>
+        <h2 class="section-title light">Des chiffres qui parlent</h2>
+        <p class="section-sub light">
+          ECOLO AFRICA TOGO avance avec ambition. Voici quelques indicateurs de notre engagement concret sur le terrain.
+        </p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i data-lucide="map" style="width:32px;height:32px;color:#4ade80;"></i></div>
+          <div class="stat-number" data-target="48">0</div>
+          <div class="stat-suffix">zones</div>
+          <div class="stat-label">Zones assainies</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i data-lucide="recycle" style="width:32px;height:32px;color:#4ade80;"></i></div>
+          <div class="stat-number" data-target="320">0</div>
+          <div class="stat-suffix">tonnes</div>
+          <div class="stat-label">Déchets recyclés</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i data-lucide="folder-check" style="width:32px;height:32px;color:#4ade80;"></i></div>
+          <div class="stat-number" data-target="75">0</div>
+          <div class="stat-suffix">projets</div>
+          <div class="stat-label">Projets verts réalisés</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i data-lucide="users-2" style="width:32px;height:32px;color:#4ade80;"></i></div>
+          <div class="stat-number" data-target="12000">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Personnes impactées</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Parlons ensemble</div>
+        <h2 class="section-title">Contactez-nous</h2>
+        <p class="section-sub">
+          Vous avez un projet, une question ou souhaitez collaborer avec nous ?
+          Nous sommes à votre écoute.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Side -->
+        <div class="contact-info reveal-left">
+          <div class="contact-info-item">
+            <div class="contact-icon-wrap">
+              <i data-lucide="map-pin" style="width:20px;height:20px;color:#2d7a3a;"></i>
+            </div>
+            <div>
+              <strong>Adresse</strong>
+              <span>HEDZRANAWOE, Rue<br/>Lomé, Togo</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon-wrap">
+              <i data-lucide="phone" style="width:20px;height:20px;color:#2d7a3a;"></i>
+            </div>
+            <div>
+              <strong>Téléphone</strong>
+              <a href="tel:+22892624227">+228 92 62 42 27</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon-wrap">
+              <i data-lucide="user" style="width:20px;height:20px;color:#2d7a3a;"></i>
+            </div>
+            <div>
+              <strong>Responsable</strong>
+              <span>Aboubakar Abdel Rachid</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon-wrap">
+              <i data-lucide="building-2" style="width:20px;height:20px;color:#2d7a3a;"></i>
+            </div>
+            <div>
+              <strong>Forme juridique</strong>
+              <span>Société à Responsabilité Limitée (SARL)</span>
+            </div>
+          </div>
+
+          <!-- Map Placeholder -->
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <i data-lucide="map-pin" style="width:40px;height:40px;color:#2d7a3a;"></i>
+              <strong>ECOLO AFRICA TOGO</strong>
+              <span>HEDZRANAWOE, Lomé, Togo</span>
+              <a href="https://maps.google.com/?q=Hedzranawoe,Lome,Togo" target="_blank" rel="noopener" class="map-link">
+                Ouvrir sur Google Maps <i data-lucide="external-link" style="width:14px;height:14px;display:inline-block;vertical-align:middle;margin-left:4px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Side -->
+        <div class="contact-form-wrap reveal-right">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nom complet <span class="req">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" placeholder="+228 XX XX XX XX" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Adresse e-mail <span class="req">*</span></label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Sujet</label>
+              <select id="subject" name="subject">
+                <option value="">Sélectionnez un sujet</option>
+                <option>Assainissement urbain</option>
+                <option>Énergie verte</option>
+                <option>Agriculture biologique</option>
+                <option>Traitement des déchets</option>
+                <option>Éco-tourisme</option>
+                <option>Habitat écologique</option>
+                <option>Partenariat</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou votre demande..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              <i data-lucide="send" class="btn-icon"></i>
+              Envoyer le message
+            </button>
+            <div id="formMsg" class="form-msg" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TERMES ET CONDITIONS
+  ============================================================ -->
+  <section id="terms" class="section terms">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Informations légales</div>
+        <h2 class="section-title">Termes et Conditions</h2>
+        <p class="section-sub">Dernière mise à jour : Janvier 2025 — Ces conditions régissent l'utilisation du site web d'ECOLO AFRICA TOGO SARL.</p>
+      </div>
+
+      <div class="terms-grid">
+        <div class="terms-nav reveal-left">
+          <h4>Sommaire</h4>
+          <ul>
+            <li><a href="#t1">1. Présentation & Acceptation</a></li>
+            <li><a href="#t2">2. Utilisation du site</a></li>
+            <li><a href="#t3">3. Propriété intellectuelle</a></li>
+            <li><a href="#t4">4. Confidentialité des données</a></li>
+            <li><a href="#t5">5. Responsabilité</a></li>
+            <li><a href="#t6">6. Services environnementaux</a></li>
+            <li><a href="#t7">7. Liens externes</a></li>
+            <li><a href="#t8">8. Modifications</a></li>
+            <li><a href="#t9">9. Contact légal</a></li>
+          </ul>
+        </div>
+
+        <div class="terms-content reveal-right">
+          <div class="terms-section" id="t1">
+            <h3><span class="terms-num">01</span> Présentation & Acceptation des Conditions</h3>
+            <p>Le présent site web est édité par <strong>ECOLO AFRICA TOGO SARL</strong>, société à responsabilité limitée de droit togolais, dont le siège social est situé à Hedzranawoe, Lomé, République Togolaise. En accédant à ce site et en le consultant, vous acceptez sans réserve l'intégralité des présentes conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser ce site.</p>
+          </div>
+
+          <div class="terms-section" id="t2">
+            <h3><span class="terms-num">02</span> Utilisation du Site Web</h3>
+            <p>Ce site est mis à disposition à titre informatif. Vous vous engagez à utiliser ce site de manière licite, dans le respect des lois togolaises et du droit international applicable. Il est strictement interdit de :</p>
+            <ul class="terms-list">
+              <li>Reproduire, copier ou exploiter tout contenu sans autorisation écrite préalable</li>
+              <li>Utiliser le site à des fins frauduleuses, commerciales non autorisées ou malveillantes</li>
+              <li>Tenter d'accéder à des zones sécurisées ou de compromettre la sécurité du site</li>
+              <li>Diffuser des contenus illicites, diffamatoires ou portant atteinte aux droits des tiers</li>
+            </ul>
+          </div>
+
+          <div class="terms-section" id="t3">
+            <h3><span class="terms-num">03</span> Propriété Intellectuelle</h3>
+            <p>L'ensemble des contenus présents sur ce site — textes, images, graphismes, logo, identité visuelle, structure et code source — sont la propriété exclusive d'<strong>ECOLO AFRICA TOGO SARL</strong> ou de ses partenaires et sont protégés par les lois relatives à la propriété intellectuelle en vigueur au Togo. Toute reproduction, représentation, modification ou exploitation non autorisée de ces éléments constitue une violation de ces droits et est susceptible de donner lieu à des poursuites.</p>
+          </div>
+
+          <div class="terms-section" id="t4">
+            <h3><span class="terms-num">04</span> Confidentialité & Protection des Données</h3>
+            <p>ECOLO AFRICA TOGO s'engage à protéger la vie privée de ses visiteurs et clients. Les données personnelles collectées via le formulaire de contact (nom, adresse e-mail, numéro de téléphone, message) sont utilisées uniquement dans le cadre du traitement de votre demande. Elles ne sont en aucun cas cédées, vendues ou partagées avec des tiers à des fins commerciales. Conformément aux principes généraux de protection des données, vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles en nous contactant directement.</p>
+          </div>
+
+          <div class="terms-section" id="t5">
+            <h3><span class="terms-num">05</span> Limitation de Responsabilité</h3>
+            <p>ECOLO AFRICA TOGO SARL s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, la société ne peut garantir l'exhaustivité ni l'exactitude absolue des informations publiées et décline toute responsabilité pour des erreurs, omissions ou indisponibilités du site. Les informations présentées, notamment les statistiques et les projets, sont données à titre indicatif et peuvent évoluer.</p>
+          </div>
+
+          <div class="terms-section" id="t6">
+            <h3><span class="terms-num">06</span> Services Environnementaux</h3>
+            <p>Les services décrits sur ce site (assainissement, énergie verte, agriculture biologique, traitement des déchets, éco-tourisme, habitat écologique, protection environnementale) sont proposés sous réserve de disponibilité et font l'objet de devis personnalisés. La réalisation de tout projet est subordonnée à la signature d'un contrat de prestation définissant les modalités, délais, coûts et garanties applicables. ECOLO AFRICA TOGO se réserve le droit de refuser tout projet jugé contraire à ses valeurs environnementales et éthiques.</p>
+          </div>
+
+          <div class="terms-section" id="t7">
+            <h3><span class="terms-num">07</span> Liens Externes</h3>
+            <p>Ce site peut contenir des liens vers des sites tiers. Ces liens sont fournis à titre indicatif uniquement. ECOLO AFRICA TOGO ne contrôle pas le contenu de ces sites externes et décline toute responsabilité quant à leur contenu, leur politique de confidentialité ou les pratiques de leurs éditeurs.</p>
+          </div>
+
+          <div class="terms-section" id="t8">
+            <h3><span class="terms-num">08</span> Modifications des Conditions</h3>
+            <p>ECOLO AFRICA TOGO se réserve le droit de modifier à tout moment les présentes conditions d'utilisation. Les modifications entrent en vigueur dès leur publication sur le site. Nous vous encourageons à consulter régulièrement cette page pour rester informé des éventuelles mises à jour.</p>
+          </div>
+
+          <div class="terms-section" id="t9">
+            <h3><span class="terms-num">09</span> Contact Légal</h3>
+            <p>Pour toute question relative aux présentes conditions, à la protection de vos données personnelles ou à l'utilisation de ce site, vous pouvez nous contacter :</p>
+            <div class="terms-contact">
+              <div><i data-lucide="building-2" style="width:16px;height:16px;color:#2d7a3a;margin-right:8px;"></i> <strong>ECOLO AFRICA TOGO SARL</strong></div>
+              <div><i data-lucide="map-pin" style="width:16px;height:16px;color:#2d7a3a;margin-right:8px;"></i> HEDZRANAWOE, Lomé, République Togolaise</div>
+              <div><i data-lucide="phone" style="width:16px;height:16px;color:#2d7a3a;margin-right:8px;"></i> <a href="tel:+22892624227">+228 92 62 42 27</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="15" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+              <path d="M16 6 C10 6, 6 10, 6 16 C6 20, 8 23, 12 25 C12 21, 14 18, 16 16 C18 18, 20 21, 20 25 C24 23, 26 20, 26 16 C26 10, 22 6, 16 6Z" fill="#4ade80"/>
+              <path d="M16 16 L16 28" stroke="#4ade80" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <div>
+              <span class="footer-brand-name">ECOLO AFRICA</span>
+              <span class="footer-brand-sub">TOGO</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Vers un Togo vert, propre et durable. Nous construisons l'avenir écologique de l'Afrique, une communauté à la fois.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" aria-label="Facebook"><i data-lucide="facebook" style="width:16px;height:16px;"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i data-lucide="twitter" style="width:16px;height:16px;"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i data-lucide="linkedin" style="width:16px;height:16px;"></i></a>
+            <a href="tel:+22892624227" class="social-btn" aria-label="Appeler"><i data-lucide="phone" style="width:16px;height:16px;"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#values">Vision & Valeurs</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#stats">Notre impact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4>Nos activités</h4>
+          <ul>
+            <li><a href="#services">Assainissement urbain</a></li>
+            <li><a href="#services">Énergie verte</a></li>
+            <li><a href="#services">Agriculture biologique</a></li>
+            <li><a href="#services">Traitement des déchets</a></li>
+            <li><a href="#services">Éco-tourisme</a></li>
+            <li><a href="#services">Habitat écologique</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i data-lucide="map-pin" style="width:14px;height:14px;color:#4ade80;flex-shrink:0;margin-top:3px;"></i>
+              <span>HEDZRANAWOE, Rue, Lomé, Togo</span>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="phone" style="width:14px;height:14px;color:#4ade80;flex-shrink:0;"></i>
+              <a href="tel:+22892624227">+228 92 62 42 27</a>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="user" style="width:14px;height:14px;color:#4ade80;flex-shrink:0;"></i>
+              <span>Aboubakar Abdel Rachid</span>
+            </div>
+          </div>
+          <a href="#contact" class="footer-cta">Nous écrire</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="currentYear"></span> ECOLO AFRICA TOGO SARL — Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#terms">Termes & Conditions</a>
+          <span>·</span>
+          <a href="#terms">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" class="scroll-top-btn" aria-label="Retour en haut">
+    <i data-lucide="arrow-up" style="width:20px;height:20px;"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
